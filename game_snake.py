@@ -19,7 +19,7 @@ pantalla = pygame.display.set_mode((ancho_pantalla, alto_pantalla))
 pygame.display.set_caption('Juego de la Serpiente')
 
 tamaño_bloque = 20
-velocidad_serpiente = 12
+velocidad_serpiente = 11
 
 reloj = pygame.time.Clock()
 
