@@ -24,8 +24,7 @@ velocidad_serpiente = 12
 reloj = pygame.time.Clock()
 
 
-
-# Inicializar la mejor puntuación
+# Puntuación
 mejor_puntuacion = 0
 
 def mostrar_puntuacion(puntuacion):
@@ -66,7 +65,7 @@ def pantalla_inicio():
 
 def pantalla_perdida():
     pantalla.fill(negro)
-    mensaje("¡Has perdido!", rojo, ancho_pantalla / 3, alto_pantalla / 3)
+    mensaje("¡Oh no! Perdiste", rojo, ancho_pantalla / 3, alto_pantalla / 3)
     mensaje("Presiona C para jugar de nuevo o Q para salir.", rojo, ancho_pantalla / 9, alto_pantalla / 3 + 40)
     pygame.display.update()
     time.sleep(2)
