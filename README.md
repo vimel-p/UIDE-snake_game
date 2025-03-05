@@ -1,4 +1,4 @@
-# Snake
+# Serpiente en el Jardín
 
 ## El juego de la serpiente creado en python
 
