@@ -9,3 +9,8 @@ El clásico juego de la serpiente, las reglas son:
  - Comida: Recoge la comida para ganar puntos y crecer. La comida aparece aleatoriamente en la pantalla.
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" alt="Snake" width="200" height="200" />
+
+
+## Dato importante
+
+- Es necesario instalar el pygame para poder visualizar el juego
