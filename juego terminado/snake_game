@@ -16,7 +16,7 @@ ancho_pantalla = 800
 alto_pantalla = 600
 
 pantalla = pygame.display.set_mode((ancho_pantalla, alto_pantalla))
-pygame.display.set_caption('Juego de la Serpiente')
+pygame.display.set_caption('Serpiente en el Jardín')
 
 # Cargar la imagen de fondo
 fondo = pygame.image.load('grass.jpg')
@@ -55,7 +55,7 @@ def dibujar_boton(texto, color, x, y, ancho, alto):
 def pantalla_inicio():
     while True:
         pantalla.fill(negro)
-        mensaje("Juego de la Serpiente", verde, ancho_pantalla / 3, alto_pantalla / 5)
+        mensaje("Serpiente en el Jardín", verde, ancho_pantalla / 3, alto_pantalla / 5)
         
         # Dibujar botones
         dibujar_boton("Jugar", verde, ancho_pantalla / 3, alto_pantalla / 3 + 40, 200, 50)
